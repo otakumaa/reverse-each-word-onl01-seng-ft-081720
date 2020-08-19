@@ -1,13 +1,13 @@
-def reverse_each_word(sentence)
-  rev_sentence = []
-  sentence.split.each do |word|
-  rev_sentence << word.reverse
+def reverse_each_word(string)
+  rev_string = []
+  string.split.each do |word|
+  rev_string << word.reverse
   end
-  rev_sentence.join(" ")
+  rev_string.join(" ")
 end
 
-def reverse_each_word(sentence)
-  sentence.split.collect do |word|
+def reverse_each_word(string)
+  string.split.collect do |word|
   word.reverse
   end.join(" ")
 end
